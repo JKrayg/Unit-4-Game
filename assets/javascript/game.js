@@ -21,13 +21,13 @@ $(document).ready(function() {
     
     //Give each crystal a variable/Create a random number between 1 and 12 for each crystal
     var crystal1 = Math.floor(Math.random() * 12) + 1;
-        console.log(crystal1);
+    console.log(crystal1);
     var crystal2 = Math.floor(Math.random() * 12) + 1;
-        console.log(crystal2);
+    console.log(crystal2);
     var crystal3 = Math.floor(Math.random() * 12) + 1;
-        console.log(crystal3);
+    console.log(crystal3);
     var crystal4 = Math.floor(Math.random() * 12) + 1;
-        console.log(crystal4);
+    console.log(crystal4);
     
     //Make a function that resets the game after a win or loss
     function reset() {
@@ -38,13 +38,13 @@ $(document).ready(function() {
         console.log(cgNumber);
         $("#cgnumber").html(cgNumber);
         crystal1 = Math.floor(Math.random() * 12) + 1;
-            console.log(crystal1);
+        console.log(crystal1);
         crystal2 = Math.floor(Math.random() * 12) + 1;
-            console.log(crystal2);
+        console.log(crystal2);
         crystal3 = Math.floor(Math.random() * 12) + 1;
-            console.log(crystal3);
+        console.log(crystal3);
         crystal4 = Math.floor(Math.random() * 12) + 1;
-            console.log(crystal4);
+        console.log(crystal4);
     
     }
     
