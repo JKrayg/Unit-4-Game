@@ -1,11 +1,13 @@
 body {
-    background-image: url(../images/kupono-kuwamura-LzgK6IMoSZM-unsplash.jpg);
+    background-color: rgb(23, 60, 116);
     background-size: cover;
 }
 
 #heady {
-    background-color: cyan;
-    width: 25%;
+    background-color: rgb(20, 205, 4);
+    border: 1px solid black;
+    box-shadow: 5px 10px 5px rgb(68, 79, 89);
+    border-radius: 5px;
     padding: 5px;
     margin: 10px;
 }
@@ -13,6 +15,7 @@ body {
 h1 {
     text-decoration: underline;
     margin-top: 5px;
+    margin-bottom: 0;
     font-size: 30px;
 }
 
@@ -22,17 +25,21 @@ h1 {
 }
 
 #compnumber {
-    background-color: rgb(200, 115, 242);
-    width: 5%;
+    background-color: rgb(242, 115, 115);
     margin: 10px;
     text-align: center;
+    border: 1px solid black;
+    box-shadow: 5px 10px 5px rgb(68, 79, 89);
+    border-radius: 5px;
 }
 
 .scoreboard {
     background-color: deepskyblue;
     font-size: 20px;
-    width: 8%;
     margin: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 10px 5px rgb(68, 79, 89);
+    border-radius: 5px;
 }
 
 #wins, #losses {
@@ -40,9 +47,11 @@ h1 {
 }
 
 #uzerscore {
-    background-color: gold;
-    width: 8%;
+    background-color: rgb(254, 238, 115);
     margin: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 10px 5px rgb(68, 79, 89);
+    border-radius: 5px;
 }
 
 #userscore {
@@ -52,7 +61,8 @@ h1 {
 }
 
 #crystal-1, #crystal-2, #crystal-3, #crystal-4 {
-    border: rgba(0, 0, 0, 0.16) 1px solid;
+    border: 1px solid black;
+    box-shadow: 5px 10px 5px rgb(68, 79, 89);
 }
 
 h3 {
@@ -61,4 +71,29 @@ h3 {
 
 #crystal-imgs {
     margin: 10px;
+}
+
+#crystal-1, #crystal-2, #crystal-3, #crystal-4 {
+    background-color: lightgrey;
+}
+
+.scorebrd {
+    padding-left: 0px;
+}
+
+.allImgs {
+    padding-right: 0px;
+}
+
+.container {
+    background-color: slategray;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px rgb(18, 48, 92);
+    padding-bottom: 40px;
+}
+
+#roach {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
